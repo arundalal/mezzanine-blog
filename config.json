@@ -1,0 +1,25 @@
+{
+    "extensions": {
+        "enabled": [
+            "python_venv",
+            "blocks"
+        ]
+    },
+    "core": {
+        "group": "Application/System",
+        "license": "MIT",
+        "name": "mezzanine-blog",
+        "summary": "Django based Blog",
+        "version": "4.2.1"
+    },
+    "python_venv": {
+        "name": "blog",
+        "path": "/opt"
+    },
+    "blocks": {
+        "desc": [
+            "some long package description",
+            "each array element is a new line"
+        ]
+    }
+}
